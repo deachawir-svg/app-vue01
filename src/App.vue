@@ -34,10 +34,16 @@
           <a class="nav-link" href="/Type">Type</a>
         </li>
 
+        <li class="nav-item">
+          <a class="nav-link" href="/Customer_crud">Customer_crud</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/Employees_crud">Employees_crud</a>
+        </li>
 
        
         
-
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Product
@@ -49,6 +55,11 @@
             <li><a class="dropdown-item" href="Show_product">Show_product</a></li>
           </ul>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="/Type_crud">Type_crud</a>
+        </li>
+
         <li class="nav-item">
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
