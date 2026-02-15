@@ -68,15 +68,27 @@
               </div>
               <div class="mb-3">
                 <label class="form-label">แผนก</label>
-                <textarea v-model="editForm.department" class="form-control"></textarea>
+                <select v-model="editForm.department" class="form-select" required >
+                      <option value="">-- เลือกแผนก --</option>
+                      <option value="บัญชี">บัญชี</option>
+                      <option value="ไอที">ไอที</option>
+                      <option value="บุคคล">ทรัพยากรบุคคล</option>
+                      <option value="การตลาด">การตลาด</option>
+                </select>
               </div>
+
               <div class="mb-3">
                 <label class="form-label">เงินเดือน</label>
                 <input v-model="editForm.salary" type="number" step="0.01" class="form-control" required />
               </div>
+
               <div class="mb-3">
                 <label class="form-label">สถานะ</label>
-                <input v-model="editForm.active" type="number" class="form-control" required />
+                <select v-model="editForm.active" class="form-select" required >
+                      <option value="">-- เลือกสถานะ --</option>
+                      <option value="0">ลาออก</option>
+                      <option value="1">ปกติ</option>
+                </select>
               </div>
               <div class="mb-3">
   <label class="form-label">รูปภาพ</label>
