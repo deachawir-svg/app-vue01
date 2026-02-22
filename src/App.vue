@@ -40,13 +40,9 @@
           <a class="nav-link" href="/contact">Contact</a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="/login">Login</a>
-        </li>
-
         <li class="nav-item dropdown" v-if="isLoggedIn">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Admin
+            Other
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="Customer">Customer</a></li>
